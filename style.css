@@ -14,6 +14,14 @@ body {
 
 .logo {
   flex: 1;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.link1,
+.link2,
+.link3 {
+  margin: 10px;
 }
 
 .hero-container {
@@ -56,4 +64,71 @@ body {
   background-color: grey;
   padding: 100px;
   width: auto;
+}
+
+.information-container {
+  background-color: white;
+}
+.information-header {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.information-subcontainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.information1,
+.information2,
+.information3,
+.information4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.info-image1,
+.info-image2,
+.info-image3,
+.info-image4 {
+  border: 3px solid rgb(0, 102, 255);
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.info-subtext1,
+.info-subtext2,
+.info-subtext3,
+.info-subtext4 {
+  display: flex;
+  text-align: center;
+  width: 110px;
+  padding: 5px;
+  font-size: 12px;
+}
+.quote-container {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.quote-subcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote-text {
+  font-style: italic;
+}
+.quote-quoter {
+  align-self: flex-end;
+  font-weight: bold;
 }
