@@ -1,3 +1,59 @@
 body {
   font-family: "Roboto";
+  margin: 0px;
+}
+.navigation-container {
+  display: flex;
+  color: white;
+  background-color: #275492;
+  align-items: center;
+  padding: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.logo {
+  flex: 1;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #1f2937;
+  padding: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.firstbox {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+}
+
+.herotext {
+  font-size: 48px;
+  font-weight: 800;
+  width: auto;
+}
+
+.herosubtext {
+  width: auto;
+}
+.button1 {
+  color: white;
+  background-color: #3882f6;
+  border: #3882f6;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  width: 100px;
+}
+
+.secondbox {
+  background-color: grey;
+  padding: 100px;
+  width: auto;
 }
