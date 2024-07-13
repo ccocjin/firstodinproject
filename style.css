@@ -61,9 +61,11 @@ body {
 }
 
 .secondbox {
-  background-color: grey;
-  padding: 100px;
-  width: auto;
+  padding: 10px;
+}
+.imageko {
+  width: 250px;
+  height: auto;
 }
 
 .information-container {
